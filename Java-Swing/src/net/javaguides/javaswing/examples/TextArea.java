@@ -41,8 +41,8 @@ class Text extends JFrame{
 			{
 				String str=Area.getText();
 				String words[]=str.split("\\s+");
-				l1.setTitle("Words:- "+words.length);
-				l2.setTitle("Character:- "+str.length());
+				l1.setText("Words:- "+words.length);
+				l2.setText("Character:- "+str.length());
 			}
 		});
 	}
